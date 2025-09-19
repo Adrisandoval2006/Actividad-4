@@ -64,8 +64,8 @@ def move():
 
     for target in targets:
         if not inside(target):
-            return
-
+            target.x = 200  # Se cambia la direccion de x a 200, que es el final
+                            # de la pantalla
     ontimer(move, 50)
 
 
