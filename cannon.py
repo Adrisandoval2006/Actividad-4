@@ -15,8 +15,8 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
-        speed.x = (x + 500) / 25
-        speed.y = (y + 500) / 25
+        speed.x = (x + 500) / 20
+        speed.y = (y + 500) / 20
 
 
 def inside(xy):
