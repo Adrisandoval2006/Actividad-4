@@ -16,7 +16,7 @@ def tap(x, y):
         ball.x = -199
         ball.y = -199
 
-        speed.x = (x + 200) / 25
+        speed.x = (x + 200) / 25 #Aumenta la velocidad los proyectiles
         speed.y = (y + 200) / 25
 
 
@@ -51,7 +51,7 @@ def move():
         target.x -= 0.5
 
     if inside(ball):
-        speed.y -= 0.35
+        speed.y -= 0.35 #Aumenta levemente la velocidad de los objetivos
         ball.move(speed)
 
     dupe = targets.copy()
